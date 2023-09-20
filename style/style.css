@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.hero {
+  background-image: url("../img/background_01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 176px;
+}
+
+.flex {
+  display: flex;
+}
+
+.text {
+  width: 50%;
+}
+
+.heading {
+  padding-top: 100px;
+  font-weight: 700;
+  font-size: 51px;
+  color: white;
+}
+.heading span {
+  color: #ffcb01;
+}
+
+.smol_text {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.phone {
+  color: white;
+  font-weight: 900;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.buttom {
+  background-color: black;
+  padding: 20px 30px;
+  border-radius: 5px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.buttom a {
+  color: #ffcb01;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.image {
+  width: 50%;
+}
+
+.servise {
+  min-height: 900px;
+}
+.servise h2 {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+.servise .container {
+  margin-bottom: 100px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.servise_item {
+  box-shadow: 1px 1px 12px black;
+  position: relative;
+  height: 400px;
+}
+.servise_item .title {
+  font-size: 30px;
+  color: black;
+  transform: translateY(145px);
+}
+.servise_item img {
+  z-index: -1;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.w-60 {
+  width: calc(60% - 0.625rem);
+}
+
+.w-40 {
+  width: calc(40% - 0.625rem);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
+  color: #ffcb01;
+  text-shadow: 1px 1px 5px black;
+  padding-bottom: 20px;
+}
+
+.lorem {
+  font-size: 18px;
+}/*# sourceMappingURL=style.css.map */
