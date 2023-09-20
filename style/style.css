@@ -21,6 +21,7 @@
 
 .flex {
   display: flex;
+  align-items: center;
 }
 
 .text {
@@ -68,6 +69,11 @@
 
 .image {
   width: 50%;
+}
+.image img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .servise {
